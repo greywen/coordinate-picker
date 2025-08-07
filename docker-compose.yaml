@@ -1,0 +1,7 @@
+services:
+  mark:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 3001:80
